@@ -4,7 +4,7 @@
 Joined the depart of computer science at in2020</p>
 <p>I research interest include computer and network, information security
 I hobbies include camping traveling 
-![Drag Racing](https://github.com/fAi00-S/fAi00-S.github.io/blob/main/94228507_10220323378667730_2628878060870434816_o.jpg)
+![fAi](94228507_10220323378667730_2628878060870434816_o.jpg)
 </p>
 
 
