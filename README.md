@@ -1,8 +1,7 @@
 # fAi00-S.github.io
 <h1> S.Nantawan</h1>
 <p><h2> Let me introduce myself. </h2></p>
-<p align="left">
-![fAi](94228507_10220323378667730_2628878060870434816_o.jpg){:height="50%" width="50%"}</p>
+<img align="left" width="50%" height="50%" src="94228507_10220323378667730_2628878060870434816_o.jpg">
 <p> My name is Nantawan Sanpukdee (Fai). I am studying at Mahanakorn University of Technology in 2020. I'm currently IT Security Manager. </p>
 <p>About job description</p>
 <ul>
