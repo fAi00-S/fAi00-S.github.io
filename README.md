@@ -1,9 +1,22 @@
 # fAi00-S.github.io
-<h1> Nantawan Sanpukdee </h1>
-<p> Miss Nantawan Sanpukdee  degrees in computer from rensselaer in 2020, 
-Joined the depart of computer science at in2020</p>
-<p>I research interest include computer and network, information security
-I hobbies include camping traveling 
-![fAi](94228507_10220323378667730_2628878060870434816_o.jpg)</p>
+<h1> S.Nantawan</h1>
+<p> Let me introduce myself. </p>
+![fAi](94228507_10220323378667730_2628878060870434816_o.jpg)
+<p> My name is Nantawan Sanpukdee (Fai). I am studying at Mahanakorn University of Technology in 2020. I'm currently IT Security Manager. </p>
+<p>About job description</p>
+<ul>
+<li>Consult for ISO27001 ISO20000 ISO22301 ISO27799 ISO27017 and standard about information Technology</li>
+<li>Instructor</li>
+</ul>
+<p>My hobbies are reading books and listening to youtube. </p>
+<p>My interests</p>
+<ul>
+<li>Network</li>
+<li>Information Security</li>
+<li>Cyber Security</li>
+<li>Digital Forensics</li>
+<li>CII</li>
+</ul>
+
 
 
