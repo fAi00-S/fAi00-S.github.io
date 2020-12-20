@@ -1,1 +1,2 @@
-<b1>2 Factor Authenication on IG
+<b1>Two-Factor Authenication on Instagram
+  
