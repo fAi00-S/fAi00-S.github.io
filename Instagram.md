@@ -15,8 +15,8 @@
 <br>7.เมื่อเปิดระบบ Two-Factor Authentication ครบหมดแล้วก็จะเห็นหน้าจอดังภาพ
 <br><img src="IG10.png"  width="200" height="400">
 <br>8.เมื่อเปิดระบบ Two-Factor Authentication ให้ลองทดสอบ Two-Factor Authentication on Instagram ผ่าน Web Browser ตามรูป
-<br><img src="IG11.jpg"  width="200" height="400">
+<br><img src="IG11.JPG"  width="200" height="400">
 <br>9.ก็จะสามารถเข้าสู่ Instagram ได้แล้ว
-<br><img src="IG13.jpg"  width="200" height="400">
+<br><img src="IG13.JPG"  width="200" height="400">
 
   
