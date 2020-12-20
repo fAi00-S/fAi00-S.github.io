@@ -13,10 +13,10 @@
 <br>6.หากเรากดเปิดใช้งานแบบ Text Message สิ่งที่ต้องทำมีเพียงรอรับ SMS จากเบอร์โทรศัพท์ที่เราตั้งค่าไว้ในบัญชี Instagram แล้วกรอกตัวเลข 6 หลัก เท่านี้ก็เรียบร้อยแล้ว
 <br><img src="IG7.png"  width="200" height="400">
 <br>7.เมื่อเปิดระบบ Two-Factor Authentication ครบหมดแล้วก็จะเห็นหน้าจอดังภาพ
-<br><img src="IG10.png"  width="200" height="400">
+<br><img src="IG10.png"  width="200" height="360">
 <br>8.เมื่อเปิดระบบ Two-Factor Authentication ให้ลองทดสอบ Two-Factor Authentication on Instagram ผ่าน Web Browser ตามรูป
-<br><img src="IG11.JPG"  width="400" height="400">
+<br><img src="IG11.JPG"  width="520" height="400">
 <br>9.ก็จะสามารถเข้าสู่ Instagram ได้แล้ว
-<br><img src="IG13.JPG"  width="400" height="400">
+<br><img src="IG13.JPG"  width="520" height="400">
 
   
