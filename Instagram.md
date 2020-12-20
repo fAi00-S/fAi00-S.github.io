@@ -1,7 +1,7 @@
-<b1>Two-Factor Authentication on Instagram
-วิธีการเปิด Two-Factor Authentication บน Instagram
-1.เปิดแอพ Instagram และเลือกปุ่มรูปคน (Profile) มุมขวาล่าง จากนั้นกดตรงปุ่ม 3 ขีดที่มุมขวาบน และเลือก Settings ที่มุมขวาล่างอีกทีหนึ่ง
-  <src img = 
+<h2>Two-Factor Authentication on Instagram</h2><br>
+<br>วิธีการเปิด Two-Factor Authentication บน Instagram
+<br>1.เปิดแอพ Instagram และเลือกปุ่มรูปคน (Profile) มุมขวาล่าง จากนั้นกดตรงปุ่ม 3 ขีดที่มุมขวาบน และเลือก Settings ที่มุมขวาล่างอีกทีหนึ่ง
+  <img src="IG3.jpg"  width="285" height="160"> <br>
   เจอหน้าจอรูปการไขกุญแจดังภาพ ในหน้าจอถัดไป เราสามารถตั้งค่าได้ว่าต้องการยืนยันตัวตนชั้นที่ 2 ด้วยวิธีไหน ระหว่างการยืนยันโค้ดจาก SMS (Text Message) หรือการใช้แอพช่วยยืนยันตัวตน (เช่น Google Authenticator)
 
 ยืนยันตัวตนผ่าน SMS
