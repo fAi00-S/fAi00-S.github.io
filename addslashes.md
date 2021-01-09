@@ -1,5 +1,4 @@
-<h2>addslashs()</h2><br>
-<h1><br>Prevent SQL Injection Attack by addslashs() function</h1><br>
+<h1>addslashs()</h1><br>
 <br><img src="head1.jpg"  width="1069" height="360">
 <br>ฟังก์ชัน addslashes() ใน PHP เป็นฟังก์ชันที่ใช้จัดรูปแบบข้อความใหม่โดยการเพิ่ม backslash (\) ข้างหน้าตัวอักษรดังนี้ <br>
 <br>single quote(‘) 
