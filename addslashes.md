@@ -15,9 +15,12 @@
 <br><img src="login-2.jpg"  width="400" height="200">
 แสดงการใส่ข้อมูล Login โดยใช้คำสั่ง SQL
 <br>ตัวอย่าง code ของการ query ข้อมูล username และ password ดังนี้
+<br>$username = $_POST['usernameInput'];
+<br>$password = $_POST['passwordInput'];
 <br>$sql = "SELECT username FROM Users where username='$username' AND password='$password';"
 <br>$result = $conn->query($sql);
 <br>ซึ่งจะเห็นว่ารูปที่ 2 เป็นการ bypass เข้าระบบได้โดยไม่ต้องใส่ password
-<h3><br>การเรียกใช้ ฟังก์ชัน addslashes()<br>
-$username = addslashes(trim($_POST['user']));
-$password= addslashes(trim($_POST['pwd']));
+<h3><br>การเรียกใช้ ฟังก์ชัน addslashes()
+<br>$username = addslashes(trim($_POST['user']));
+<br>$password= addslashes(trim($_POST['pwd']));
+<br>เพียงเท่านี้ก็สามารถป้องกัน SQL injection ที่เป็นการ bypass username และ password ได้แล้ว
