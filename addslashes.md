@@ -7,5 +7,10 @@
 <br>- NULL<br>
 <br>เพื่อป้องกันความผิดพลาดหรือป้องกันการใช้งานผิดวัตถุประสงค์จากผู้ไม่ประสงค์ดี <br>
 <h2><br>ทำไมต้องใช้ฟังก์ชัน addslashes()</h2>
-<br>SQL Injection คือการใช้คำสั่งหรือแฝงคำสั่ง SQL จากการรับค่าจากผู้ใช้ไปทำการ  query, insert, update, delete หรืออื่นๆ บน Database 
-<br>โดย PHP มีฟังก์ชันพิเศษคือ ฟังก์ชัน addslashes() สำหรับจัดรูปแบบตัวอักษรใหม่ ก่อนการเขียนลง database เช่นมีการรับค่า username และ password ในระบบงานหนึ่ง
+<br>PHP มีฟังก์ชันพิเศษคือ ฟังก์ชัน addslashes() สำหรับจัดรูปแบบตัวอักษรใหม่ ก่อนการเขียนลง database 
+<br>เพื่อป้องกันการเกิด SQL Injection โดย SQL Injection คือการใช้คำสั่งหรือแฝงคำสั่ง SQL จากการรับค่าของผู้ใช้ไปทำการ  query, insert, update, delete หรืออื่นๆ บน Database 
+<br>ตัวอย่างของ SQL Injection เช่นมีการรับค่า input จากผู้ใช้งานเป็น username และ password เพื่อ Login ระบบ
+
+
+<br>$sql = "SELECT username FROM Users where username='$username' AND password='$password';"
+<br>$result = $conn->query($sql);
