@@ -4,7 +4,7 @@
 Function Hash ใน PHP ไม่ได้มีแค่ md5() อย่างเดียวยังคงมี sha1() หรือชื่อเต็มของเค้าคือ Secure Hash Algorithm 1<br>
 โดย sha1()
 
-  <h3>ตัวอย่าง</h3><br>
+ <h3>ตัวอย่าง</h3><br>
   <?php
   $str = 'Hello';
   echo sha1($str,FALSE);
