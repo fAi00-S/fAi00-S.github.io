@@ -13,7 +13,7 @@
 <img src="login-1.jpg"  width="400" height="200">
 แสดงการใส่ข้อมูล Login ปกติ<br>
 <img src="login-2.jpg"  width="400" height="200">
-แสดงการใส่ข้อมูล Login โดยใช้คำสั่ง SQL
+แสดงการใส่ข้อมูล Login โดยใช้คำสั่ง SQL<br>
 <br>ตัวอย่าง code ของการ query ข้อมูล username และ password ดังนี้
 <br>$username = $_POST['usernameInput'];
 <br>$password = $_POST['passwordInput'];
