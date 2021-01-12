@@ -9,10 +9,10 @@
 <h2><br>ทำไมต้องใช้ฟังก์ชัน addslashes()</h2>
 <br>PHP มีฟังก์ชันพิเศษคือ ฟังก์ชัน addslashes() สำหรับจัดรูปแบบตัวอักษรใหม่ ก่อนการเขียนลง database 
 <br>เพื่อป้องกันการเกิด SQL Injection โดย SQL Injection คือการใช้คำสั่งหรือแฝงคำสั่ง SQL จากการรับค่าของผู้ใช้ไปทำการ  query, insert, update, delete หรืออื่นๆ บน Database 
-<br>ตัวอย่างของ SQL Injection เช่นมีการรับค่า input จากผู้ใช้งานเป็น username และ password เพื่อ Login ระบบ
-<br><img src="login-1.jpg"  width="400" height="200">
-แสดงการใส่ข้อมูล Login ปกติ
-<br><img src="login-2.jpg"  width="400" height="200">
+<br>ตัวอย่างของ SQL Injection เช่นมีการรับค่า input จากผู้ใช้งานเป็น username และ password เพื่อ Login ระบบ<br>
+<img src="login-1.jpg"  width="400" height="200">
+แสดงการใส่ข้อมูล Login ปกติ<br>
+<img src="login-2.jpg"  width="400" height="200">
 แสดงการใส่ข้อมูล Login โดยใช้คำสั่ง SQL
 <br>ตัวอย่าง code ของการ query ข้อมูล username และ password ดังนี้
 <br>$username = $_POST['usernameInput'];
