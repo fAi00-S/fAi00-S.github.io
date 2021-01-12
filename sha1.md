@@ -6,7 +6,7 @@ Function Hash ใน PHP ไม่ได้มีแค่ md5() อย่าง
 
 <h3>ตัวอย่าง</h3><br>
  
-<?php <br>
+<?php<br>
 $str = 'Hello';<br>
 echo sha1($str,FALSE);<br>
 ?><br>
