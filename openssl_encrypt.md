@@ -7,6 +7,7 @@
 $encrypted = openssl_encrypt($data, $method, $key);
 ````
 
+ตัวอย่างการใช้ openssl_encrypt()
 ````PHP
 $textToEncrypt = "My super secret information.";
 $encryptionMethod = "AES-256-CBC";  // AES is used by the U.S. gov't to encrypt top secret documents.
