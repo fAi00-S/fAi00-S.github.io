@@ -2,5 +2,5 @@
 ![](openssl.jpg)
 `openssl_encrypt()`
 ````PHP
-    $hash = password_hash($password, PASSWORD_BCRYPT);
+    openssl_encrypt ($data, $method, $password, 0, $iv)
 ````
