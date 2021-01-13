@@ -1,5 +1,6 @@
 # openssl_encrypt()
 `openssl` `openssl_encrypt` `encryption` 
+
 ![](openssl.jpg)
 ปกติเวลาเข้า website เราจะเรียกผ่าน URL ซึ่ง URL ที่ว่านี้ถ้าไม่มีการ design ด้าน security ซึ่งการรับส่งข้อมูลอาจไม่ไดเข้ารหัส session id
 จึงเป็นช่องโหว่ให้ผู้ไม่ประสงค์ดี สุ่มเปลี่ยนแปลงเลข id เพื่อเข้าถึงข้อมูลในหน้าอื่นๆได้
