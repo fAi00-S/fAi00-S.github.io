@@ -12,3 +12,6 @@ $bcrypt = new Bcrypt(15);
 $hash = $bcrypt->hash('password'); 
 $check= $bcrypt->verify('password', $hash);
 ````
+## ข้อดีของ bcrypt()
+brute force ต้องใช้เวลานาน
+
