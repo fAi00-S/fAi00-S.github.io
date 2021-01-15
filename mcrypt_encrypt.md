@@ -1,2 +1,8 @@
-#PHP mcrypt_encrypt()
-![](img.mcrypt.jpg)
+# PHP mcrypt_encrypt()
+`encryption` 
+![](mcrypt.jpg)
+
+
+````PHP
+$encrypted = openssl_encrypt($data, $method, $key);
+````
