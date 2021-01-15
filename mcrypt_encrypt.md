@@ -10,6 +10,6 @@ mcrypt_encrypt ( string $cipher , string $key , string $data , string $mode , st
 
 
 ## References:
- https://www.php.net/manual/en/function.openssl-encrypt.php
+- https://www.php.net/manual/en/function.openssl-encrypt.php
 ## Warning
 `This function has been DEPRECATED as of PHP 7.1.0 and REMOVED as of PHP 7.2.0. Relying on this function is highly discouraged.`
