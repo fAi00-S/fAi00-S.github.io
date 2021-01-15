@@ -1,2 +1,2 @@
 #PHP mcrypt_encrypt()
-![](img.)
+![](img.mcrypt.jpg)
