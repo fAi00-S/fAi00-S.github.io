@@ -12,7 +12,7 @@
 ````PHP
 mcrypt_encrypt ( string $cipher , string $key , string $data , string $mode , string $iv = ? ) : string|false
 ````
-## ตัวอย่าง
+## ตัวอย่าง code ฝั่งผู้ส่ง
 ````PHP
 <?php
 
@@ -24,6 +24,17 @@ mcrypt_encrypt ( string $cipher , string $key , string $data , string $mode , st
   $code = mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $key, $data, MCRYPT_MODE_CFB, $suffix); 
   echo $code; 
   exit;
+
+?>
+````
+## ตัวอย่าง code ฝั่งผู้รับ
+````PHP
+<?php
+  
+  $key = 'utrdn6kcxkfgs6keo23345kfniomgf4s';
+  $suffix = '4678965001980654';
+
+  $data = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key, $code, MCRYPT_MODE_CFB, $suffix);
 
 ?>
 ````
