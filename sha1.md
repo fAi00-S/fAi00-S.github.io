@@ -10,13 +10,15 @@ Function Hash ใน PHP ไม่ได้มีแค่ md5() อย่าง
 ````PHP
 sha1(string,raw);
 ````
+
 ## พารามิเตอร์ 
 |  Parameter  |                     Description                           |
 |-------------|:---------------------------------------------------------:|
-|data       |.                      |
-|encrypted          |It will have the data that is encrypted.             |
-|  key           |            The public key.         |
-|     padding        |  The padding you can apply are : OPENSSL_PKCS1_PADDING, OPENSSL_SSLV23_PADDING, OPENSSL_PKCS1_OAEP_PADDING, OPENSSL_NO_PADDING.      |
+|string       |Required. The string to be calculated                      |
+|raw          |Optional. Specify hex or binary output format:             |
+|             |            TRUE - Raw 20 character binary format          |
+|             |             FALSE - Default. 40 character hex number      |
+
 
 ### ตัวอย่างการใช้ sha1()
 ````PHP
