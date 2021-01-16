@@ -9,7 +9,7 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
 ````
 ## พารามิเตอร์ 
 |  Parameter  |                     Description                           |
-|-------------|:---------------------------------------------------------:|
+|-------------|---------------------------------------------------------|
 |data       |.                      |
 |encrypted          |It will have the data that is encrypted.             |
 |  key           |            The public key.         |
