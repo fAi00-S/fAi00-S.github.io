@@ -13,8 +13,8 @@ md5(string, raw);
 ## พารามิเตอร์ 
 |  Parameter  |                     Description                           |
 |-------------|:---------------------------------------------------------:|
-|    string   |  Required. The string to be calculated                    |
-|     raw     |  Optional. Specify hex or binary output format:           |
+|string   |  Required. The string to be calculated                    |
+|raw     |  Optional. Specify hex or binary output format:           |
 |             |            TRUE - Raw 20 character binary format          |
 |             |             FALSE - Default. 40 character hex number      |
 
