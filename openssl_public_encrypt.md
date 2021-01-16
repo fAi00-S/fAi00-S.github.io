@@ -1,7 +1,7 @@
 # openssl_public_encrypt()
 `openssl` `openssl_public_encrypt` `encryption` 
 
-![](openssl.jpg)
+![](opensslpublic.jpg)
 
 รูปแบบการใช้ function openssl_encrypt()
 ````PHP
