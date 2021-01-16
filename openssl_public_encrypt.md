@@ -4,8 +4,14 @@
 ![](opensslpublic.jpg)
 
 `openssl_public_encrypt` เป็นการเข้ารหัสลับคล้ายๆ กับ `openssl_encrypt` แต่ส่วนที่เพิ่มเติมคือมีการใช้ Public Key เข้ามาเกี่ยวข้อง
-โดยการ encrypt ข้อมูลด้วยการใช้ Public Key 
-รูปแบบการใช้ function openssl_public_encrypt()
+การเข้ารหัสแบบ `Public Key` จะเป็นแบบ `Asymmetric` ซึ่งทำให้มีคีย์ที่เกี่ยวข้องอยู่ 2 Key คือ `Public Key` และ `Private Key`
+โดยข้อมูลที่เข้ารหัสด้วย `Public Key` ต้องถอดรหัสด้วย `Private Key` ที่เข้าคู่กันเท่านั้น 
+นั้นหมายความว่า ทุกคนเห็นข้อมูลที่เป็น `ciphertext` แต่จะมีคนที่มี `Private Key` เท่านั้นที่สามารถอ่านออก
+
+![](public-key-flow.png)
+
+
+## รูปแบบการใช้ function openssl_public_encrypt()
 ````PHP
 openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $padding = OPENSSL_PKCS1_PADDING ) : bool
 ````
