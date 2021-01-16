@@ -18,37 +18,29 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
 ### ตัวอย่างการใช้ openssl_public_encrypt()
 ````PHP
 <?php
-   // Save Private Key
-   $privkey = openssl_pkey_new();
-   openssl_pkey_export_to_file($privkey, 'C:/xampp/htdocs/modules/openssl/privatekey.pem');
-	
-   //Save Public Key
-   $dn = array(
-      "countryName" => "IN",
-      "stateOrProvinceName" => "Karnataka",
-      "localityName" => "test1",
-      "organizationName" => "test2",
-      "organizationalUnitName" => "test3",
-      "commonName" => "www.test.com",
-      "emailAddress" => "xyz@test.com"
-   );
-   $cert = openssl_csr_new($dn, $privkey);
-   $cert = openssl_csr_sign($cert, null, $privkey, 365);
-   openssl_x509_export_to_file($cert, 'C:/xampp/htdocs/modules/openssl/publickey.pem');
-	
-	
-   // To encrpt data
-   $data = 'Welcome To TuorialsPoint';
-   $isvalid = openssl_public_encrypt ($data, $crypted , file_get_contents('C:/xampp/htdocs/modules/openssl/publickey.pem'),OPENSSL_PKCS1_PADDING);	
-   echo "Data encryption : ".$crypted;
+$bool = openssl_public_encrypt ("this is some data",$crypted,"file:///tmp/public-key.pem",OPENSSL_PKCS1_PADDING);
+
+// shows the result in base64 and decrypted
+if ($bool) {
+    $base64 = base64_encode($crypted);
+    $d_bool = openssl_private_decrypt(
+        $crypted,
+        $decrypted,"file:///tmp/private-key.pem",OPENSSL_PKCS1_PADDING}
 ?>
 ````
 ### ผลลัพธ์
 ````PHP
-Data encryption : ��E �wC�ݭ�+c��f*��o���W�7�EW��$�p�.rng�_N��A1��2Uݴ~s�ap۳)w��=� ��#��g;���u��_%�Z�bb�&��m��v&����q��k
+
+$crypted	=	'Guև�X��̉�8"-E�U��N�' . "\0" . '���Bd��|5�E�j4��Ë&}���gJ����]l\\��n`��`��z���S�l��c�x�}-�V�)\\D�,M*�(ex0�C�i�o-\\\\�$��yRg��8o#3��t� 6�E�3�UH�K"��' . "\0" . '&�w���8�|Y8�`�YZ�VIQ�O�<㟆F(�
+P���&��W^ ���Ɉ�>�#J��[�l�r���s�-6*z��?�C^ͧ&��KK+�'
+$bool	=	true
+$base64	=	'R3XWh/RY8JTwssyJBqs4Ii0HRYdVH9rPTuKXAJiOokJk5+B8NZIUReVqNJLVw4smfYXKwpSLZ0rAqtEG6KldbBpcp51uYBrsERKjFGDA7XqtE+/XUx/FbKWJBwhj6AZ4/30tzlbnKVwIRKcsHk0q3yhlE3gw1UO5acdvLRZcXMUkkOF5BFJnm+GqOBQSbyMztBbJdJkNNqdF3DPtVUi/SyKb6gAmoHeyxdI4snxZOPO6pmCrAlla21ZJUYRPmzzjn4ZGKO4KUMCaGvsm+9RXXiC3offJiM8+GbQjShnfEKJb6GyHcrO4FONzDpMtNip6maA/BPNDXs2nJv33S0srmg=='
+$d_bool	=	true
+$decrypted	=	'this is some data'
 ````
 
 ### References:
 - https://www.php.net/manual/en/function.openssl-public-encrypt.php
+- http://micmap.org/php-by-example/en/function/openssl_public_encrypt
 - https://www.tutorialspoint.com/php/php_function_openssl_public_encrypt.htm
 
