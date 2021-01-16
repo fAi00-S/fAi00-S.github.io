@@ -15,7 +15,7 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
 |  key           |            The public key.         |
 |     padding        |  The padding you can apply are : OPENSSL_PKCS1_PADDING, OPENSSL_SSLV23_PADDING, OPENSSL_PKCS1_OAEP_PADDING, OPENSSL_NO_PADDING.      |
 
-ตัวอย่างการใช้ openssl_public_encrypt()
+### ตัวอย่างการใช้ openssl_public_encrypt()
 ````PHP
 <?php
    // Save Private Key
@@ -43,7 +43,12 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
    echo "Data encryption : ".$crypted;
 ?>
 ````
+### ผลลัพธ์
+````PHP
+Data encryption : ��E �wC�ݭ�+c��f*��o���W�7�EW��$�p�.rng�_N��A1��2Uݴ~s�ap۳)w��=� ��#��g;���u��_%�Z�bb�&��m��v&����q��k
+````
 
 ### References:
 - https://www.php.net/manual/en/function.openssl-public-encrypt.php
+- https://www.tutorialspoint.com/php/php_function_openssl_public_encrypt.htm
 
