@@ -21,11 +21,13 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
 $bool = openssl_public_encrypt ("this is some data",$crypted,"file:///tmp/public-key.pem",OPENSSL_PKCS1_PADDING);
 
 // shows the result in base64 and decrypted
-if ($bool) {
+if ($bool) 
+{
     $base64 = base64_encode($crypted);
     $d_bool = openssl_private_decrypt(
         $crypted,
-        $decrypted,"file:///tmp/private-key.pem",OPENSSL_PKCS1_PADDING}
+        $decrypted,"file:///tmp/private-key.pem",OPENSSL_PKCS1_PADDING);
+}
 ?>
 ````
 ### ผลลัพธ์
