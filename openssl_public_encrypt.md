@@ -3,7 +3,7 @@
 
 ![](opensslpublic.jpg)
 
-รูปแบบการใช้ function openssl_encrypt()
+รูปแบบการใช้ function openssl_public_encrypt()
 ````PHP
 openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $padding = OPENSSL_PKCS1_PADDING ) : bool
 ````
@@ -15,9 +15,33 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
 |  key           |            The public key.         |
 |     padding        |  The padding you can apply are : OPENSSL_PKCS1_PADDING, OPENSSL_SSLV23_PADDING, OPENSSL_PKCS1_OAEP_PADDING, OPENSSL_NO_PADDING.      |
 
-ตัวอย่างการใช้ openssl_encrypt()
+ตัวอย่างการใช้ openssl_public_encrypt()
 ````PHP
-openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $padding = OPENSSL_PKCS1_PADDING ) : bool
+<?php
+   // Save Private Key
+   $privkey = openssl_pkey_new();
+   openssl_pkey_export_to_file($privkey, 'C:/xampp/htdocs/modules/openssl/privatekey.pem');
+	
+   //Save Public Key
+   $dn = array(
+      "countryName" => "IN",
+      "stateOrProvinceName" => "Karnataka",
+      "localityName" => "test1",
+      "organizationName" => "test2",
+      "organizationalUnitName" => "test3",
+      "commonName" => "www.test.com",
+      "emailAddress" => "xyz@test.com"
+   );
+   $cert = openssl_csr_new($dn, $privkey);
+   $cert = openssl_csr_sign($cert, null, $privkey, 365);
+   openssl_x509_export_to_file($cert, 'C:/xampp/htdocs/modules/openssl/publickey.pem');
+	
+	
+   // To encrpt data
+   $data = 'Welcome To TuorialsPoint';
+   $isvalid = openssl_public_encrypt ($data, $crypted , file_get_contents('C:/xampp/htdocs/modules/openssl/publickey.pem'),OPENSSL_PKCS1_PADDING);	
+   echo "Data encryption : ".$crypted;
+?>
 ````
 
 ### References:
