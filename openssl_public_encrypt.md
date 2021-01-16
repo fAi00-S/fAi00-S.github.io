@@ -3,6 +3,8 @@
 
 ![](opensslpublic.jpg)
 
+`openssl_public_encrypt` เป็นการเข้ารหัสลับคล้ายๆ กับ `openssl_encrypt` แต่ส่วนที่เพิ่มเติมคือมีการใช้ Public Key เข้ามาเกี่ยวข้อง
+โดยการ encrypt ข้อมูลด้วยการใช้ Public Key 
 รูปแบบการใช้ function openssl_public_encrypt()
 ````PHP
 openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $padding = OPENSSL_PKCS1_PADDING ) : bool
