@@ -15,8 +15,8 @@ md5(string, raw);
 |-------------|:---------------------------------------------------------:|
 |string       |Required. The string to be calculated                      |
 |raw          |Optional. Specify hex or binary output format:             |
-|             |            TRUE - Raw 20 character binary format          |
-|             |             FALSE - Default. 40 character hex number      |
+|             |            TRUE - Raw 16 character binary format          |
+|             |             FALSE - Default. 32 character hex number      |
 
 
 ## ตัวอย่างการใช้  MD5()
