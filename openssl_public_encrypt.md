@@ -14,5 +14,5 @@ openssl_public_encrypt ( string $data , string &$crypted , mixed $key , int $pad
 ````
 
 ### References:
-- https://www.php.net/manual/en/function.openssl-encrypt.php
-- https://www.codegrepper.com/code-examples/php/php+openssl_encrypt
+- https://www.php.net/manual/en/function.openssl-public-encrypt.php
+
