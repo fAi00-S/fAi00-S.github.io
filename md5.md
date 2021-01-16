@@ -26,4 +26,4 @@ echo md5(Nantawan);
 ประโยชน์ของ Function md5() ที่สำคัญคือ สามารถใช้ในการตรวจสอบความถูกต้องของข้อมูลได้หรือในทาง Security เรียกว่า Integrity
 
 ## References:
-- https://www.php.net/manual/en/function.openssl-encrypt.php
+- https://www.php.net/manual/en/function.md5.php
