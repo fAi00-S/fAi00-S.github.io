@@ -27,3 +27,6 @@ echo md5(Nantawan);
 
 ## References:
 - https://www.php.net/manual/en/function.md5.php
+
+## Warning
+`It is not recommended to use this function to secure passwords, due to the fast nature of this hashing algorithm. See the Password Hashing FAQ for details and best practices.`
