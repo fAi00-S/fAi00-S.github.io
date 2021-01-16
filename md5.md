@@ -1,4 +1,5 @@
-# PHP MD5()
+# Hash PHP Function
+## PHP MD5()
 ![](md5.jpg)
 
 Message Digest Algorithm 5 หรือที่เรารู้จักกันดีในชื่อของ MD5 เป็นฟังก์ชันที่ใช้ในการเข้ารหัสชนิดหนึ่ง
