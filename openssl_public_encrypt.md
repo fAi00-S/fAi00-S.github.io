@@ -8,7 +8,7 @@
 โดยข้อมูลที่เข้ารหัสด้วย `Public Key` ต้องถอดรหัสด้วย `Private Key` ที่เข้าคู่กันเท่านั้น 
 นั้นหมายความว่า ทุกคนเห็นข้อมูลที่เป็น `ciphertext` แต่จะมีคนที่มี `Private Key` เท่านั้นที่สามารถอ่านออก
 
-![](public-key-flow.png)
+![](public-key-flow_1.png)
 
 
 ## รูปแบบการใช้ function openssl_public_encrypt()
