@@ -10,6 +10,14 @@ Message Digest Algorithm 5 หรือที่เรารู้จักก�
 ````PHP
 md5(string, raw);
 ````
+## พารามิเตอร์ 
+|  Parameter  |                     Description                     |
+|-------------|:---------------------------------------:|
+|    string   |  Required. The string to be calculated              |
+|     raw     |  Optional. Specify hex or binary output format:     |
+|             |      TRUE - Raw 20 character binary format          |
+|             |      FALSE - Default. 40 character hex number:      |
+
 
 ## ตัวอย่างการใช้  MD5()
 ````PHP
