@@ -1,0 +1,13 @@
+# A.14 System acquisition, development and maintenance
+
+
+
+![](sha1.jpg)
+Function Hash ใน PHP ไม่ได้มีแค่ md5() อย่างเดียวยังคงมี sha1() หรือชื่อเต็มของเค้าคือ Secure Hash Algorithm 1
+โดย sha1 จะมี Message Digest เท่ากับ 160 bits 
+
+
+````PHP
+A.14.1.1 การวิเคราะห์และกำหนดความต้องการด้านความมั่นคงปลอดภัยสารสนเทศ (Information security requirements analysis and specification)
+    ความต้องการที่เกี่ยวข้องกับความมั่นคงปลอดภัยสารสนเทศต้องมีการรวมเข้ากับความต้องการสำหรับระบบใหม่หรือการปรับปรุงระบบที่มีอยู่แล้ว
+````
